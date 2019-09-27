@@ -3,14 +3,6 @@
   "summary": "生而为你",
   "list": [
     {
-      "name": "疯情书库",
-      "url": "https://m.aaread.club",
-      "category": 1,
-      "rank": 8,
-      "auth": false,
-      "version": 100  
-    },
-    {
       "name": "易看小说",
       "url": "https://m.yikanxiaoshuo.com",
       "category": 1,
