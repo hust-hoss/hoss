@@ -3,6 +3,14 @@
   "summary": "生而为你",
   "list": [
     {
+      "name": "69书吧",
+      "url": "https://www.69shu.com",
+      "category": 1,
+      "rank": 0,
+      "auth": false,
+      "version": 102
+    },
+    {
       "name": "易看小说",
       "url": "https://m.yikanxiaoshuo.com",
       "category": 1,
