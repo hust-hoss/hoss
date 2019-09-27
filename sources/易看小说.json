@@ -1,0 +1,34 @@
+{
+  "name": "易看小说",
+  "version": 100,
+  "category": 1,
+  "url": "https://m.yikanxiaoshuo.com/",
+  "charset": "gbk",
+  "metadata": {
+    "name": ["a:nth-child(2)@attr->content"],
+    "author": ["a:nth-child(3)@attr->content"],
+    "cover": [""],
+    "summary": [""],
+    "category": ["a:nth-child(1)@attr->content"],
+    "status": ["div.block_text2 > p:nth-child(5)@attr->content"],
+    "update": ["div.block_text2 > p:nth-child(6)@attr->content"],
+    "lastChapter": ["div.block_text2 > p:nth-child(7) > a@attr->content"],
+    "link": ["div.block_text2 > p:nth-child(7) > a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "chapter li",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "div#nrl"
+  },
+  "search": {
+    "link": "https://m.yikanxiaoshuo.com/s.php@post->s:${key}",
+    "list": "p.line"
+  }
+}
